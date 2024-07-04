@@ -8,8 +8,8 @@ console.log(" ####### ");
 console.log("#########");
 
 
-//Step 2-18
+//Step 2-19
 
 let character = 'Hello';
 let count = 8;
-let rows = [];
+let rows = ["Naomi", "Quincy", "CamperChan"];
