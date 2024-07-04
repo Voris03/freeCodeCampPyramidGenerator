@@ -8,12 +8,6 @@ console.log(" ####### ");
 console.log("#########");
 
 
-//Step 2-10
+//Step 2-12
 
 let character = 'Hello';
-console.log(character);
-character = "World";
-console.log(character);
-let secondCharacter;
-secondCharacter = character;
-console.log(secondCharacter);
