@@ -8,7 +8,8 @@ console.log(" ####### ");
 console.log("#########");
 
 
-//Step 2-15
+//Step 2-16
 
 let character = 'Hello';
 let count = 8;
+console.log(count+1);
