@@ -15,11 +15,11 @@ const count = 8;
 const rows = [];
 
 function padRow(){
-    console.log(call);
+    return "Hello!"
 }
 const call = padRow();
+console.log(call);
 
-padRow(call);
 
 for (let i = 0; i < count; i = i + 1) {
     rows.push(character.repeat(i+1));
