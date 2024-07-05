@@ -13,6 +13,13 @@ console.log("#########");
 const character = "#";
 const count = 8;
 const rows = [];
+
+function padRow(){
+  
+}
+
+padRow()
+
 for (let i = 0; i < count; i = i + 1) {
     rows.push(character.repeat(i+1));
   }
@@ -21,8 +28,4 @@ console.log(result)
 
 for (const row of rows) {
     result = row + "\n" + result
-}
-
-function padRow(){
-  
 }
