@@ -13,8 +13,8 @@ console.log("#########");
 const character = "#";
 const count = 8;
 const rows = [];
-for (let character = 0; character < count; character = character + 1) {
-    rows.push(character);
+for (let i = 0; i < count; i = i + 1) {
+    rows.push(character.repeat(i));
   }
 let result = "";
 console.log(result)
