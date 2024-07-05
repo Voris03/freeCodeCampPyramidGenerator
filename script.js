@@ -16,7 +16,7 @@ const rows = [];
 
 function padRow (name) {
     const test = "Testing";
-    return character + name;
+    return test;
 }
 const call = padRow("Voris");
 console.log(call);
