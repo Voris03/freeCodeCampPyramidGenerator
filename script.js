@@ -22,3 +22,7 @@ console.log(result)
 for (const row of rows) {
     result = row + "\n" + result
 }
+
+function padRow(){
+  
+}
