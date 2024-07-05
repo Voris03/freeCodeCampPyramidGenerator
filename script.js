@@ -25,7 +25,7 @@ function padRow(rowNumber, rowCount) {
     rows.push(padRow(i, count));
 } */
 
-if ("false") {
+if ("") {
     console.log("Condition is true")
 };
 
