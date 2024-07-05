@@ -20,5 +20,5 @@ let result = "";
 console.log(result)
 
 for (const row of rows) {
-    result = row + result
+    result = row + "\n" + result
 }
