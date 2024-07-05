@@ -14,8 +14,8 @@ const character = "#";
 const count = 8;
 const rows = [];
 
-function padRow(name){
-    return name;
+function padRow (name) {
+    return character + name;
 }
 const call = padRow("Voris");
 console.log(call);
@@ -24,7 +24,7 @@ console.log(call);
 
 for (let i = 0; i < count; i = i + 1) {
     rows.push(character.repeat(i+1));
-  }
+}
 let result = "";
 console.log(result)
 
