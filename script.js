@@ -15,10 +15,10 @@ const count = 8;
 const rows = [];
 
 function padRow(){
-  
+    console.log(call);
 }
-
 const call = padRow();
+
 padRow(call);
 
 for (let i = 0; i < count; i = i + 1) {
