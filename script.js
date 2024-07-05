@@ -19,6 +19,7 @@ function padRow(rowNumber, rowCount) {
 }
 
 
+// измените код на другой тип цикла.
 
 for (let i = 1; i <= count; i++) {
     rows.push(padRow(i, count));
