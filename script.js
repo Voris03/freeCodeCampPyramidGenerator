@@ -34,7 +34,10 @@ function padRow(rowNumber, rowCount) {
 // }
 
 const numbers = [1, 2, 3];
+const shifted = numbers.shift()
+
 const unshifted = numbers.unshift(5);
+console.log(shifted);
 console.log(unshifted);
 console.log(numbers);
 
