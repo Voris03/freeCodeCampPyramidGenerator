@@ -25,9 +25,9 @@ function padRow(rowNumber, rowCount) {
     rows.push(padRow(i, count));
 } */
 
-while (rows.length < count) {
-    rows.push(padRow(rows.length + 1))
-}
+// while (rows.length < count) {
+//     rows.push(padRow(rows.length + 1))
+// }
 
 let result = "";
 console.log(result)
