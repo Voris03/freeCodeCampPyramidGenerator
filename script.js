@@ -33,13 +33,14 @@ function padRow(rowNumber, rowCount) {
 //     rows.push(padRow(i, count))
 // }
 
-const numbers = [1, 2, 3];
+// Delete 
+/*const numbers = [1, 2, 3];
 const shifted = numbers.shift()
 
 const unshifted = numbers.unshift(5);
 console.log(shifted);
 console.log(unshifted);
-console.log(numbers);
+console.log(numbers) */
 
 let result = "";
 console.log(result)
